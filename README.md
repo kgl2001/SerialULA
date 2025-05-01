@@ -11,7 +11,7 @@ Some general notes:
 * A combined CPL / BOM file is included in the gerber directory. Again, this is for use with JLCPCB, if you want to use their PCBA (PCB Assembly) to solder on all the SMD parts.
 * You will need to source suitable round pin headers, and solder these onto the underside of the PCB. These headers will then plug into IC socket 7 on the beeb motherboard.
 
-Please refer to the following discussion on Stardot for further details: https://stardot.org.uk/forums/viewtopic.php?p=451324#p451324
+Please refer to the following discussion on Stardot for further details: https://stardot.org.uk/forums/viewtopic.php?t=30963
 
 ## Author
 
