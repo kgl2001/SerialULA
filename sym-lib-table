@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SerialULA")(type "KiCad")(uri "${KIPRJMOD}/SerialULA.kicad_sym")(options "")(descr ""))
+)
