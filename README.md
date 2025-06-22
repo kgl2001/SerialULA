@@ -9,6 +9,7 @@ Some general notes:
 * If you want the barcode to be added, then make sure to select this option in the 'Mark on PCB' field, and make sure to select 'Specify position' in the '2D Barcode Position' field, otherwise you will end up with a white 8mm x 8mm box printed on your PCB and a 8mm x 8mm barcode printed at a position of JLCPCBs choosing. Thrust me on this!
 * If you don't want the barcode added, then remove the 8mm x 8mm box from the silkscreen layer and regenerate the gerbers. Otherwise you will end up with a white 8mm x 8mm box printed on your PCB.
 * A combined CPL / BOM file is included in the gerber directory. Again, this is for use with JLCPCB, if you want to use their PCBA (PCB Assembly) to solder on all the SMD parts.
+* The CPL / BOM file includes two different options for LDO regulator and associated capacitors. Select one set only - either U2, C2.1 & C2.2 OR U3, C4 & C5. If using JLCPCB for assembly, you can deselect one set during the PCBA ordering process.
 * You will need to source suitable round pin headers, and solder these onto the underside of the PCB. These headers will then plug into IC socket 7 on the beeb motherboard.
 
 Please refer to the following discussion on Stardot for further details: https://stardot.org.uk/forums/viewtopic.php?t=30963
