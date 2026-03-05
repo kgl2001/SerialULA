@@ -3,7 +3,6 @@ This module designed as a drop in replacement for the Serial Interface IC, 2C199
 
 Some general notes:
 
-* This module has not yet been tested on real hardware. Use at your own risk!
 * The source files are to be used with KiCAD v9.0.0 or later.
 * The gerber files have been optimised for fabrication by JLCPCB. In particular, there is a 8mmx8mm silkscreen box on the rear of the PCB. This is to allow a 2D barcode, with unique serial number to be printed on the PCB.
 * If you want the barcode to be added, then make sure to select this option in the 'Mark on PCB' field, and make sure to select 'Specify position' in the '2D Barcode Position' field, otherwise you will end up with a white 8mm x 8mm box printed on your PCB and a 8mm x 8mm barcode printed at a position of JLCPCBs choosing. Thrust me on this!
@@ -13,6 +12,9 @@ Some general notes:
 * You will need to source suitable round pin headers, and solder these onto the underside of the PCB. These headers will then plug into IC socket 7 on the beeb motherboard.
 
 Please refer to the following discussion on Stardot for further details: https://stardot.org.uk/forums/viewtopic.php?t=30963
+
+## Schematic
+<img width="2339" height="1654" alt="SerialULA" src="https://github.com/user-attachments/assets/521e8526-12e7-40bc-991b-1ca86a181b91" />
 
 ## Author
 
